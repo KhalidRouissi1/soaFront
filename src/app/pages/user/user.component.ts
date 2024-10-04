@@ -3,13 +3,11 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { User } from '../../models/user.model';
 import { UserService } from '../../services/user.service';
 import { HttpClientModule} from "@angular/common/http";
-import {BrowserModule} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-user',
   standalone: true,
   imports: [
-    BrowserModule,
     ReactiveFormsModule,
     HttpClientModule
   ],
